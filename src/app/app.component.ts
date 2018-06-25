@@ -21,7 +21,7 @@ export class AppComponent implements OnDestroy, AfterViewInit {
 
     // this.temperature_data = db.collection('temp').valueChanges();
 
-    db.collection('temp').valueChanges().subscribe(
+    db.collection('Temperatura').valueChanges().subscribe(
       items => {
         this.AmCharts.updateChart(this.temperature_chart, () => {
           this.temperature_chart.dataProvider = items;

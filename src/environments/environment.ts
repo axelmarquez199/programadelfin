@@ -12,7 +12,7 @@ export const environment = {
     apiKey: '<your-key>',
     authDomain: '<your-project-authdomain>',
     databaseURL: 'https://example-dba5e.firebaseio.com/',
-    projectId: 'example-dba5e',
+    projectId: 'temperatura-af1e5',
     storageBucket: '<your-storage-bucket>',
     messagingSenderId: '<your-messaging-sender-id>'
   }
